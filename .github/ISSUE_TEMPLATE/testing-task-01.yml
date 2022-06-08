@@ -1,0 +1,57 @@
+name: Testing Tasks
+description: Testing Task
+title: "[Tasks]: "
+labels: ["task", "triage", "test"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this task to define the various task to do with the release
+  - type: textarea
+    id: test-description
+    attributes:
+      label: Description
+      description: Description of the test
+      placeholder: Description of the test
+      value: "To do"
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version to Test
+      description: Which version must me tested
+      options:
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
+        - 1.1.0 (Summer)
+        - 2.0beta (Early)
+    validations:
+      required: true
+  - type: dropdown
+    id: test-types
+    attributes:
+      label: Which type of test?
+      multiple: true
+      options:
+        - Automatic
+        - Manual
+        - Manual and Automatic
+  - type: textarea
+    id: information
+    attributes:
+      label: Relevant informations for the test output
+      description: Tell us more about the test to do
+      render: shell
+  - type: checkboxes
+    id: test-managers
+    attributes:
+      label: Test Managers
+      description: Who are responsible of the tests?
+    options:
+      - label: John Doe
+      - label: David Morris
+      - label: Jane Davis
+      - label: Bob Chene
+      - label: Lucy Chen
