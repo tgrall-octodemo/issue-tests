@@ -10,6 +10,18 @@ body:
       value: |
        Déscription du problème et des tests à effectuer
 
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Categories
+      options:
+        - label: SCM-CCT
+        - label: SCM-TTT
+        - label: DEM-CCT
+        - label: DEM-PWD
+
+
   - type: textarea
     id: bug-description
     attributes:
