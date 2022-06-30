@@ -14,7 +14,6 @@ body:
     id: bug-description
     attributes:
       label: Description du bug
-      description: Description du bug
       placeholder: Description du bug
     validations:
       required: true
@@ -23,7 +22,17 @@ body:
     id: test-description
     attributes:
       label: Description du test
-      description: Description du test
+      description: Décrire le test à effectuer
       placeholder: Description du test
     validations:
       required: true
+
+  - type: dropdown
+    id: test-types
+    attributes:
+      label: Moyen de test
+      multiple: true
+      options:
+        - Demande d'essai (DE,STD)
+        - Test Grue SSR
+        - Test Labo
