@@ -18,16 +18,18 @@ body:
       value: "To do"
     validations:
       required: true
-  # - type: dropdown
-  #   id: version
-  #   attributes:
-  #     label: Version to Test
-  #     description: Which version must me tested
-  #     options:
-  #       - 1.0.2 (Default)
-  #       - 1.0.3 (Edge)
-  #       - 1.1.0 (Summer)
-  #       - 2.0beta (Early)
+  
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version to Test
+      description: Which version must me tested
+      options:
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
+        - 1.1.0 (Summer)
+        - 2.0beta (Early)
+
   #   validations:
   #     required: true
   # - type: dropdown
