@@ -3,6 +3,7 @@ description: Bug et plan de test
 title: "[Test]: "
 labels: ["task", "triage", "test"]
 
+
 body:
   - type: markdown
     attributes:
