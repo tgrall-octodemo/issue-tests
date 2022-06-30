@@ -29,9 +29,9 @@ body:
         - 1.0.3 (Edge)
         - 1.1.0 (Summer)
         - 2.0beta (Early)
+    validations:
+      required: true
 
-  #   validations:
-  #     required: true
   # - type: dropdown
   #   id: test-types
   #   attributes:
@@ -41,6 +41,7 @@ body:
   #       - Automatic
   #       - Manual
   #       - Manual and Automatic
+
   # - type: textarea
   #   id: information
   #   attributes:
