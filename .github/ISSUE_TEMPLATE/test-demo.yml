@@ -1,0 +1,28 @@
+name: Demo bug
+description: Bug et plan de test
+title: "[Test]: "
+labels: ["task", "triage", "test"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+       Déscription du problème et des tests à effectuer
+
+  - type: textarea
+    id: test-description
+    attributes:
+      label: Description du bug
+      description: Description du bug
+      placeholder: Description du bug
+    validations:
+      required: true
+  
+  - type: textarea
+    id: test-description
+    attributes:
+      label: Description du test
+      description: Description du test
+      placeholder: Description du test
+    validations:
+      required: true
