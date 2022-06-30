@@ -42,12 +42,14 @@ body:
         - Manual
         - Manual and Automatic
 
-  # - type: textarea
-  #   id: information
-  #   attributes:
-  #     label: Relevant informations for the test output
-  #     description: Tell us more about the test to do
-  #     render: shell
+  - type: textarea
+    id: information
+    attributes:
+      label: Relevant informations for the test output
+      description: Tell us more about the test to do
+      render: shell
+
+
   # - type: checkboxes
   #   id: test-managers
   #   attributes:
