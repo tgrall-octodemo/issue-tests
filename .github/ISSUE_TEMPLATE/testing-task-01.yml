@@ -50,14 +50,8 @@ body:
       render: shell
 
 
-  # - type: checkboxes
-  #   id: test-managers
-  #   attributes:
-  #     label: Test Managers
-  #     description: Who are responsible of the tests?
-  #   options:
-  #     - label: John Doe
-  #     - label: David Morris
-  #     - label: Jane Davis
-  #     - label: Bob Chene
-  #     - label: Lucy Chen
+  - type: checkboxes
+    id: test-managers
+    attributes:
+      label: Test Managers
+      description: Who are responsible of the tests?
