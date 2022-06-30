@@ -32,15 +32,15 @@ body:
     validations:
       required: true
 
-  # - type: dropdown
-  #   id: test-types
-  #   attributes:
-  #     label: Which type of test?
-  #     multiple: true
-  #     options:
-  #       - Automatic
-  #       - Manual
-  #       - Manual and Automatic
+  - type: dropdown
+    id: test-types
+    attributes:
+      label: Which type of test?
+      multiple: true
+      options:
+        - Automatic
+        - Manual
+        - Manual and Automatic
 
   # - type: textarea
   #   id: information
