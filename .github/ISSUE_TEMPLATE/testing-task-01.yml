@@ -9,15 +9,15 @@ body:
       value: |
         Use this task to define the various task to do with the release
 
-  # - type: textarea
-  #   id: test-description
-  #   attributes:
-  #     label: Description
-  #     description: Description of the test
-  #     placeholder: Description of the test
-  #     value: "To do"
-  #   validations:
-  #     required: true
+  - type: textarea
+    id: test-description
+    attributes:
+      label: Description
+      description: Description of the test
+      placeholder: Description of the test
+      value: "To do"
+    validations:
+      required: true
   # - type: dropdown
   #   id: version
   #   attributes:
