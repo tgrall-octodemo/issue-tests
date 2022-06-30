@@ -55,3 +55,5 @@ body:
     attributes:
       label: Test Managers
       description: Who are responsible of the tests?
+    options:
+    - label: Your name
