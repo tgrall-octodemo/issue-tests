@@ -11,7 +11,7 @@ body:
        Déscription du problème et des tests à effectuer
 
   - type: textarea
-    id: test-description
+    id: bug-description
     attributes:
       label: Description du bug
       description: Description du bug
